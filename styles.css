@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+}
+img{
+    width:200px
+}
+body{
+    background-color: rgb(224, 231, 236);
+    height: 100vh;
+    width: auto;
+    margin: 100px 200px 100px 200px ;
+    padding: 30px 30px 30px 30px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+    
+}
+.container{
+    background-color: white;
+    padding: 30px 30px 30px 30px ;
+    width: auto;
+    height: 440px
+   
+
+}
+h2{
+    font-size: 30px;
+    margin:10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.box{
+    position:absolute;
+    left: 520px;
+    bottom: 220px;
+}
+h4{
+    text-decoration: line-through;
+    margin:10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.h1{
+    margin:10px 0px 40px 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h5{
+    width:100px;
+    height: 20px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    background-color: rgb(17, 0, 74);
+    border-radius: 10px;
+    color:white;
+    margin:10px;
+}
+p, button{
+    margin:10px;
+}
+ul{
+    
+    margin: 10px 0px 10px 24px;
+}
+.add{
+    background-color: rgb(81, 86, 254);
+    border-radius: 10px;
+    width:360px;
+    height:50px;
+    border: none;
+    color: white;
+    box-shadow: 0 5px 0 0 rgba(8, 0, 255, 0.744);
+}
+button{
+    width: 43%;
+    height:40px;
+    margin: 0px 13px 0px 0px;
+    border-radius: 10px;
+    border: none;
+}
+
+li::marker{
+    color: rgb(43, 246, 43);
+}
+
+p{
+    color: grey;
+}
